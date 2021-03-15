@@ -1,0 +1,3 @@
+<button *ngIf="is_logged_in()" routerLink="/login">LOGIN</button>
+<button *ngIf="!is_logged_in()" routerLink="/">HOME</button>
+<router-outlet></router-outlet>
